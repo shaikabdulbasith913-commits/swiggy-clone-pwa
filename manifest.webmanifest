@@ -1,0 +1,19 @@
+{
+  "name": "Foodie — Food Delivery",
+  "short_name": "Foodie",
+  "description": "Order food from your favourite restaurants and track your delivery.",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#fc8019",
+  "icons": [
+    {
+      "src": "icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
