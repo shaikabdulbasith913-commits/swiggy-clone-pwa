@@ -1,5 +1,7 @@
 # Foodie — Swiggy-style mobile app prototype
 
+**Live demo:** <https://shaikabdulbasith913-commits.github.io/swiggy-clone-pwa/>
+
 A mobile-first **PWA prototype** inspired by Swiggy, built with plain HTML, CSS and JavaScript.
 No build tools, no package installs, no backend — all restaurant and order data is bundled locally,
 so the app works offline once loaded.
@@ -55,6 +57,16 @@ swiggy-app/
 ├── js/icons.js              Inline SVG icon helper
 └── js/app.js                State, routing, screens and interactions
 ```
+
+## Deployment
+
+The app is deployed on **GitHub Pages** from the `main` branch (root directory) at
+<https://shaikabdulbasith913-commits.github.io/swiggy-clone-pwa/>. Source repository:
+<https://github.com/shaikabdulbasith913-commits/swiggy-clone-pwa>.
+
+Pushing new commits to `main` triggers an automatic Pages rebuild. Because the service worker caches
+the app shell, bump `CACHE_NAME` in `sw.js` whenever you change HTML/CSS/JS files so returning
+visitors receive the update.
 
 ## Notes
 
